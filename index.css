@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul li {
+    padding: 0 15px;
+}
+ul li a{
+    font-weight: 600;
+    color: inherit !important;
+}
+.footer ul li{
+    list-style: none;
+    padding-bottom: 15px;
+    margin-left: -45px;
+}
+.footer ul li a{
+    color: inherit;
+    font-weight: 400;
+    opacity: 0.8;
+    text-decoration: none;
+}
+.footer h6{
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+/* dark mode */
+.navbar .dark small{
+    font-size: 11px;
+    font-weight: 600;
+}
+.navbar .dark{
+    margin-left: 20px;
+    text-align: center;
+}
+.darkmode {
+    color: #fff !important;
+    background-color: #191d25 !important;
+ }
+.dark:hover{
+    cursor: pointer;
+}
+/* akhir dark mode */
+
+/* responsive break point */
+@media (min-width: 300px) { 
+    .section-banner .text-content h1{
+        font-weight: 800;
+        font-size: 33px;
+    }
+    .section-banner .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 11px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .secyion-choose .text{
+        margin-left: 00px;
+        margin-top: 11px !important;
+    }
+    .section-find .text-content h2{
+        font-size: 27px;
+    } 
+    .section-find .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 10px;
+    }
+    .section-find .text-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .section-find .img-content img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+ }
+@media (min-width: 400px) { 
+    .section-banner .text-content h1{
+        font-weight: 800;
+        font-size: 45px;
+    }
+    .section-banner .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 13px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .img-content img{
+        width: 80%;
+        height: 80%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .secyion-choose .text{
+        margin-left: 00px;
+        margin-top: 11px !important;
+    }
+    .section-find .text-content h2{
+        font-size: 33px;
+    } 
+    .section-find .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 13px;
+    }
+    .section-find .text-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .section-find .img-content img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+ }
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 500px) { 
+    .section-banner .text-content h1{
+        font-weight: 800;
+        font-size: 45px;
+    }
+    .section-banner .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 15px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .img-content img{
+        width: 80%;
+        height: 80%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .section-find .text-content h2{
+        font-size: 38px;
+    } 
+    .section-find .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .section-find .text-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .section-find .img-content img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .section-banner .text-content h1{
+        font-weight: 800;
+        font-size: 45px;
+    }
+    .section-banner .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 15px;
+    }
+    .section-banner .text-content{
+        text-align: center;
+    }
+    .section-banner .img-content img{
+        width: 80%;
+        height: 80%;
+        margin-left: 0px;
+        margin-top: 50px;
+    }
+    .section-find .text-content h2{
+        font-size: 38px;
+    } 
+    .section-find .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .section-find .text-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .section-find .img-content img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        margin-left: 0px;
+    }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .section-banner .text-content h1{
+        font-weight: 800;
+        font-size: 45px;
+    }
+    .section-banner .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 15px;
+    }
+    .section-banner .img-content img{
+        width: 100%;
+        height: 100%;
+        margin-left: -40px;
+    }
+    .section-banner .text-content{
+        text-align: left;
+    }
+    .section-find .text-content h2{
+        font-size: 38px;
+    } 
+    .section-find .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .section-find .text-content {
+        margin-top: 50px;
+        text-align: left;
+    }
+    .section-find .img-content img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        margin-left: -40px;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1{
+        font-weight: 800;
+        font-size: 45px;
+    }
+    .section-banner .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 15px;
+    }
+    .section-banner .img-content img{
+        width: 80%;
+        height: 80%;
+        margin-left: -100px;
+    }
+    .section-banner .text-content{
+        text-align: left;
+    }
+    .secyion-choose .text{
+        margin-left: 00px;
+        margin-top: 7px !important;
+    }
+    .section-find .text-content h2{
+        font-size: 38px;
+    } 
+    .section-find .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .section-find .text-content {
+        margin-top: 50px;
+        text-align: left;
+    }
+    .section-find .img-content img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        margin-left: -70px;
+    }
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
