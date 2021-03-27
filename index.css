@@ -10,6 +10,10 @@ ul li {
 ul li a{
     font-weight: 600;
     color: inherit !important;
+   
+}
+.card-testi{
+    margin: 20px 0;
 }
 .footer ul li{
     list-style: none;
@@ -25,6 +29,9 @@ ul li a{
 .footer h6{
     font-weight: bold;
     padding-bottom: 15px;
+}
+.navbar .btn-1{
+    margin-top: 15px;
 }
 /* dark mode */
 .navbar .dark small{
@@ -48,12 +55,12 @@ ul li a{
 @media (min-width: 300px) { 
     .section-banner .text-content h1{
         font-weight: 800;
-        font-size: 33px;
+        font-size: 30px;
     }
     .section-banner .text-content p{
         font-weight: 500;
         opacity: 0.8;
-        font-size: 11px;
+        font-size: 9px;
     }
     .section-banner .text-content{
         text-align: center;
@@ -85,6 +92,14 @@ ul li a{
         height: 100%;
         border-radius: 30px;
         margin-left: 0px;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .navbar button{
+        display: block;
     }
  }
 @media (min-width: 400px) { 
@@ -128,6 +143,14 @@ ul li a{
         border-radius: 30px;
         margin-left: 0px;
     }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .navbar button{
+        display: block;
+    }
  }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 500px) { 
@@ -144,8 +167,8 @@ ul li a{
         text-align: center;
     }
     .section-banner .img-content img{
-        width: 80%;
-        height: 80%;
+        width: 100%;
+        height: 100%;
         margin-left: 0px;
         margin-top: 50px;
     }
@@ -165,6 +188,14 @@ ul li a{
         height: 100%;
         border-radius: 30px;
         margin-left: 0px;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .navbar button{
+        display: block;
     }
  }
 
@@ -188,6 +219,7 @@ ul li a{
         margin-left: 0px;
         margin-top: 50px;
     }
+ 
     .section-find .text-content h2{
         font-size: 38px;
     } 
@@ -205,13 +237,21 @@ ul li a{
         border-radius: 30px;
         margin-left: 0px;
     }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .navbar button{
+        display: block;
+    }
  }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
     .section-banner .text-content h1{
         font-weight: 800;
-        font-size: 45px;
+        font-size: 47px;
     }
     .section-banner .text-content p{
         font-weight: 500;
@@ -221,48 +261,12 @@ ul li a{
     .section-banner .img-content img{
         width: 100%;
         height: 100%;
-        margin-left: -40px;
+        margin-left: -20px;
+        margin-top: 20px !important;
     }
     .section-banner .text-content{
         text-align: left;
-    }
-    .section-find .text-content h2{
-        font-size: 38px;
-    } 
-    .section-find .text-content p{
-        font-weight: 500;
-        opacity: 0.8;
-    }
-    .section-find .text-content {
-        margin-top: 50px;
-        text-align: left;
-    }
-    .section-find .img-content img{
-        width: 100%;
-        height: 100%;
-        border-radius: 30px;
-        margin-left: -40px;
-    }
- }
-
-/* // X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { 
-    .section-banner .text-content h1{
-        font-weight: 800;
-        font-size: 45px;
-    }
-    .section-banner .text-content p{
-        font-weight: 500;
-        opacity: 0.8;
-        font-size: 15px;
-    }
-    .section-banner .img-content img{
-        width: 80%;
-        height: 80%;
-        margin-left: -100px;
-    }
-    .section-banner .text-content{
-        text-align: left;
+        margin-top: 40px;
     }
     .secyion-choose .text{
         margin-left: 00px;
@@ -284,6 +288,76 @@ ul li a{
         height: 100%;
         border-radius: 30px;
         margin-left: -70px;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .navbar button{
+        display: none;
+    }
+    .navbar .btn-1{
+        margin-top: 0;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 0;
+    }
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .section-banner .text-content h1{
+        font-weight: 800;
+        font-size: 50px;
+    }
+    .section-banner .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+        font-size: 15px;
+    }
+    .section-banner .img-content img{
+        width: 85%;
+        height: 85%;
+        margin-left: -100px;
+        margin-top: 15px !important;
+    }
+    .section-banner .text-content{
+        text-align: left;
+        margin-top: 40px;
+    }
+    .secyion-choose .text{
+        margin-left: 00px;
+        margin-top: 7px !important;
+    }
+    .section-find .text-content h2{
+        font-size: 38px;
+    } 
+    .section-find .text-content p{
+        font-weight: 500;
+        opacity: 0.8;
+    }
+    .section-find .text-content {
+        margin-top: 50px;
+        text-align: left;
+    }
+    .section-find .img-content img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+        margin-left: -70px;
+    }
+    .navbar button{
+        display: none;
+    }
+    .navbar .btn-1{
+        margin-top: 0;
+    }
+    .navbar .dark{
+        margin-left: 20px;
+        text-align: center;
+        margin-top: 0;
     }
  }
 
